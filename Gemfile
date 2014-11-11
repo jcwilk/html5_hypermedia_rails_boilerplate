@@ -29,8 +29,8 @@ gem "pry-stack_explorer", group: [:development, :test]
 #TODO: gem "rubocop"
 
 #hypermedia stuffs
-gem "grape"
-gem "grape-roar"
+gem "grape", '~> 0.8.0'
+gem "grape-roar", '~> 0.1.0'
 gem "grape-swagger"
 gem 'hyperresource', group: :test
 gem "rack-cors"

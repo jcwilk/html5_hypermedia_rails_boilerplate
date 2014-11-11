@@ -1,7 +1,7 @@
 module SC
   class Root < Grape::API
-    #prefix 'sc'
     format :json
+    formatter :json, Grape::Formatter::Roar
 
     desc 'The API root.'
     params do
