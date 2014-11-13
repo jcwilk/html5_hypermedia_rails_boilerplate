@@ -40,6 +40,8 @@ If you want to use Siren or Collection+JSON (other popular JSON hypermedia forma
 
 For the javascript client, I'll likely go with [hyperagent.js](https://github.com/weluse/hyperagent) which is specific to HAL and lets us traverse the API concisely and with little to no configuration.
 
+For ruby testing, I'll be using [HyperResource](https://github.com/gamache/hyperresource) but that's just for convenience and less brittle tests... It's only in the test bundle.
+
 ### Rails
 
 I picked the most recent Rails version at the time, which happens to be 4.1.6. Rails will only be used for serving the client page and the assets, after that's all loaded it will just be the HAL API doing the communication (see above).
