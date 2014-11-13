@@ -19,6 +19,7 @@ gem 'jquery-rails'
 gem 'spring',        group: :development
 
 gem 'kaminari'
+gem 'haml'
 
 #general testing stuffs
 gem 'rspec-rails', '~> 3.0.0', group: [:development, :test]
